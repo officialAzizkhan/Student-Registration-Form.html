@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<center>
+
+    <body bgcolor="yellow">
+        <form style="border:solid 2px; width: 30%; height: 400px; padding: 10px;">
+            <table>
+                <h1>Student Registration Form</h1>
+                <tr>
+                    <th>Name : <input type="text" placeholder="enter your name"></th>
+                </tr>
+                <tr>
+                    <th>FName : <input type="text" placeholder="enter fathername"></th>
+                </tr>
+                <tr>
+                    <th> Gender :
+                        <input type="radio" name="Gender" value="Male" id="Gender1"> <label for="Gender1">Male</label>
+                        <input type="radio" name="Gender" value="Female" id="Gender2"><label
+                            for="Gender2">Female</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Country : <select name="Country">
+                            <option value="select"> select </option>
+                            <option value="pak">Pakistan</option>
+                            <option value="ind">india</option>
+                            <option value="Afg">Afghanistan</option>
+                            <option value="bang">Bangladesh</option>
+                        </select></th>
+                </tr>
+                <tr>
+                    <th>
+                        Hobbies :
+                        cricket <input type="checkbox" name="cric">
+                        football <input type="checkbox" name="foot">
+                        valleyball <input type="checkbox" name="vally">
+                    </th>
+                </tr>
+                <tr>
+                    <th>Address : <textarea name="Address" id="" cols="30" rows="10"></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="submit">
+                        <input type="reset">
+                    </th>
+                </tr>
+        </form>
+        </table>
+    </body>
+</center>
+
+</html>
